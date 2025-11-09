@@ -231,7 +231,7 @@
         <div class="header">
             <h1>📊 코인선물 숏포지션 패턴 검출 현황</h1>
             <p>양봉-양봉-음봉 패턴 분석 결과</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">분석 시간: 2025-11-09 22:11:17</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">분석 시간: 2025-11-10 02:02:22</p>
         </div>
         
         <div class="nav-section">
@@ -253,17 +253,53 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3>패턴 발견 (양-양-음)</h3>
-                    <div class="value">117</div>
+                    <div class="value">52</div>
                 </div>
                 <div class="summary-card">
                     <h3>⭐ 최적 조건</h3>
-                    <div class="value" style="color: #ffd700;">0</div>
+                    <div class="value" style="color: #ffd700;">1</div>
                     <p style="font-size: 0.8em; color: #6c757d; margin-top: 5px;">현재봉 하락률 10~20%</p>
                 </div>
             </div>
         </div>
         
         <div class="content">
+
+            <div class="section">
+                <h2 class="section-title">⭐ 최적 조건 종목 (현재봉 하락률 10~20%)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>순위</th>
+                            <th>심볼</th>
+                            <th>패턴</th>
+                            <th>현재가</th>
+                            <th>캔들1</th>
+                            <th>캔들2</th>
+                            <th>캔들3</th>
+                            <th>현재봉하락률</th>
+                            <th>시가→종가</th>
+                            <th>거래대금(원화)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr class="optimal-row">
+                            <td>1</td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ACTUSDT" target="_blank" class="symbol-link">ACTUSDT</a></td>
+                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
+                            <td>$0.0222</td>
+                            <td class="green">양봉 0.41%</td>
+                            <td class="green">양봉 38.41%</td>
+                            <td class="red">음봉 -17.61%</td>
+                            <td class="red"><strong>17.61%</strong></td>
+                            <td>$0.03 → $0.02</td>
+                            <td>₩79,149,315,326</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
 
             <div class="section">
                 <h2 class="section-title">📋 전체 패턴 종목</h2>
@@ -284,1525 +320,680 @@
                     </thead>
                     <tbody>
 
-                        <tr class="">
+                        <tr class="optimal-row">
                             <td>1</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MYXUSDT" target="_blank" class="symbol-link">MYXUSDT</a></td>
+                            <td>⭐최적</td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ACTUSDT" target="_blank" class="symbol-link">ACTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$2.4240</td>
-                            <td class="green">양봉 4.27%</td>
-                            <td class="green">양봉 5.79%</td>
-                            <td class="red">음봉 -5.20%</td>
-                            <td class="red">5.20%</td>
-                            <td>₩58,400,660,220</td>
+                            <td>$0.0222</td>
+                            <td class="green">양봉 0.41%</td>
+                            <td class="green">양봉 38.41%</td>
+                            <td class="red">음봉 -17.61%</td>
+                            <td class="red">17.61%</td>
+                            <td>₩79,149,315,326</td>
                         </tr>
 
                         <tr class="">
                             <td>2</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/XMRUSDT" target="_blank" class="symbol-link">XMRUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/SOONUSDT" target="_blank" class="symbol-link">SOONUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$448.7800</td>
-                            <td class="green">양봉 0.03%</td>
-                            <td class="green">양봉 12.33%</td>
-                            <td class="red">음봉 -3.98%</td>
-                            <td class="red">3.98%</td>
-                            <td>₩311,734,838,058</td>
+                            <td>$2.0187</td>
+                            <td class="green">양봉 3.67%</td>
+                            <td class="green">양봉 0.79%</td>
+                            <td class="red">음봉 -2.92%</td>
+                            <td class="red">2.92%</td>
+                            <td>₩254,441,841,355</td>
                         </tr>
 
                         <tr class="">
                             <td>3</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/CCUSDT" target="_blank" class="symbol-link">CCUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TRUTHUSDT" target="_blank" class="symbol-link">TRUTHUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1505</td>
-                            <td class="green">양봉 5.90%</td>
-                            <td class="green">양봉 3.45%</td>
-                            <td class="red">음봉 -3.40%</td>
-                            <td class="red">3.40%</td>
-                            <td>₩9,795,681,728</td>
+                            <td>$0.0371</td>
+                            <td class="green">양봉 19.33%</td>
+                            <td class="green">양봉 5.20%</td>
+                            <td class="red">음봉 -2.76%</td>
+                            <td class="red">2.76%</td>
+                            <td>₩1,125,389,882,599</td>
                         </tr>
 
                         <tr class="">
                             <td>4</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/STRKUSDT" target="_blank" class="symbol-link">STRKUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ZECUSDT" target="_blank" class="symbol-link">ZECUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1382</td>
-                            <td class="green">양봉 7.70%</td>
-                            <td class="green">양봉 0.28%</td>
-                            <td class="red">음봉 -3.36%</td>
-                            <td class="red">3.36%</td>
-                            <td>₩106,702,801,212</td>
+                            <td>$629.2600</td>
+                            <td class="green">양봉 2.91%</td>
+                            <td class="green">양봉 6.30%</td>
+                            <td class="red">음봉 -2.21%</td>
+                            <td class="red">2.21%</td>
+                            <td>₩5,330,718,850,334</td>
                         </tr>
 
                         <tr class="">
                             <td>5</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FILUSDT" target="_blank" class="symbol-link">FILUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000RATSUSDT" target="_blank" class="symbol-link">1000RATSUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$2.6600</td>
-                            <td class="green">양봉 2.78%</td>
-                            <td class="green">양봉 4.72%</td>
-                            <td class="red">음봉 -3.31%</td>
-                            <td class="red">3.31%</td>
-                            <td>₩2,243,453,321,842</td>
+                            <td>$0.0376</td>
+                            <td class="green">양봉 0.36%</td>
+                            <td class="green">양봉 4.31%</td>
+                            <td class="red">음봉 -1.62%</td>
+                            <td class="red">1.62%</td>
+                            <td>₩5,368,480,336</td>
                         </tr>
 
                         <tr class="">
                             <td>6</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/DASHUSDT" target="_blank" class="symbol-link">DASHUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ICNTUSDT" target="_blank" class="symbol-link">ICNTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$89.1700</td>
-                            <td class="green">양봉 6.45%</td>
-                            <td class="green">양봉 16.43%</td>
-                            <td class="red">음봉 -3.31%</td>
-                            <td class="red">3.31%</td>
-                            <td>₩579,761,382,547</td>
+                            <td>$0.2635</td>
+                            <td class="green">양봉 3.15%</td>
+                            <td class="green">양봉 2.02%</td>
+                            <td class="red">음봉 -1.57%</td>
+                            <td class="red">1.57%</td>
+                            <td>₩9,388,188,490</td>
                         </tr>
 
                         <tr class="">
                             <td>7</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/NXPCUSDT" target="_blank" class="symbol-link">NXPCUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/MINAUSDT" target="_blank" class="symbol-link">MINAUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3727</td>
-                            <td class="green">양봉 2.47%</td>
-                            <td class="green">양봉 1.96%</td>
-                            <td class="red">음봉 -3.02%</td>
-                            <td class="red">3.02%</td>
-                            <td>₩60,675,059,073</td>
+                            <td>$0.1627</td>
+                            <td class="green">양봉 1.45%</td>
+                            <td class="green">양봉 2.54%</td>
+                            <td class="red">음봉 -1.51%</td>
+                            <td class="red">1.51%</td>
+                            <td>₩73,238,271,029</td>
                         </tr>
 
                         <tr class="">
                             <td>8</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SCRTUSDT" target="_blank" class="symbol-link">SCRTUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/MAVUSDT" target="_blank" class="symbol-link">MAVUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2216</td>
-                            <td class="green">양봉 2.96%</td>
-                            <td class="green">양봉 5.80%</td>
-                            <td class="red">음봉 -2.81%</td>
-                            <td class="red">2.81%</td>
-                            <td>₩14,055,512,137</td>
+                            <td>$0.0348</td>
+                            <td class="green">양봉 3.74%</td>
+                            <td class="green">양봉 3.58%</td>
+                            <td class="red">음봉 -1.36%</td>
+                            <td class="red">1.36%</td>
+                            <td>₩25,742,965,675</td>
                         </tr>
 
                         <tr class="">
                             <td>9</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ROSEUSDT" target="_blank" class="symbol-link">ROSEUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ARCUSDT" target="_blank" class="symbol-link">ARCUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0221</td>
-                            <td class="green">양봉 1.10%</td>
-                            <td class="green">양봉 3.04%</td>
-                            <td class="red">음봉 -2.69%</td>
-                            <td class="red">2.69%</td>
-                            <td>₩31,273,119,098</td>
+                            <td>$0.0289</td>
+                            <td class="green">양봉 5.67%</td>
+                            <td class="green">양봉 0.72%</td>
+                            <td class="red">음봉 -1.16%</td>
+                            <td class="red">1.16%</td>
+                            <td>₩42,898,438,419</td>
                         </tr>
 
                         <tr class="">
                             <td>10</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/XANUSDT" target="_blank" class="symbol-link">XANUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/LTCUSDT" target="_blank" class="symbol-link">LTCUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0307</td>
-                            <td class="green">양봉 2.03%</td>
-                            <td class="green">양봉 7.94%</td>
-                            <td class="red">음봉 -2.13%</td>
-                            <td class="red">2.13%</td>
-                            <td>₩10,732,701,720</td>
+                            <td>$105.6100</td>
+                            <td class="green">양봉 0.51%</td>
+                            <td class="green">양봉 4.73%</td>
+                            <td class="red">음봉 -1.11%</td>
+                            <td class="red">1.11%</td>
+                            <td>₩1,070,581,318,649</td>
                         </tr>
 
                         <tr class="">
                             <td>11</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/DUSKUSDT" target="_blank" class="symbol-link">DUSKUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/NAORISUSDT" target="_blank" class="symbol-link">NAORISUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0743</td>
-                            <td class="green">양봉 1.72%</td>
-                            <td class="green">양봉 6.62%</td>
-                            <td class="red">음봉 -2.04%</td>
-                            <td class="red">2.04%</td>
-                            <td>₩16,155,324,253</td>
+                            <td>$0.0312</td>
+                            <td class="green">양봉 1.62%</td>
+                            <td class="green">양봉 2.54%</td>
+                            <td class="red">음봉 -1.02%</td>
+                            <td class="red">1.02%</td>
+                            <td>₩4,474,256,710</td>
                         </tr>
 
                         <tr class="">
                             <td>12</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ZEREBROUSDT" target="_blank" class="symbol-link">ZEREBROUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/RAYSOLUSDT" target="_blank" class="symbol-link">RAYSOLUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0442</td>
-                            <td class="green">양봉 1.07%</td>
-                            <td class="green">양봉 1.12%</td>
-                            <td class="red">음봉 -2.00%</td>
-                            <td class="red">2.00%</td>
-                            <td>₩13,306,672,531</td>
+                            <td>$1.4929</td>
+                            <td class="green">양봉 0.45%</td>
+                            <td class="green">양봉 8.02%</td>
+                            <td class="red">음봉 -0.97%</td>
+                            <td class="red">0.97%</td>
+                            <td>₩16,500,569,815</td>
                         </tr>
 
                         <tr class="">
                             <td>13</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/LYNUSDT" target="_blank" class="symbol-link">LYNUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/NEIROUSDT" target="_blank" class="symbol-link">NEIROUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1097</td>
-                            <td class="green">양봉 4.97%</td>
-                            <td class="green">양봉 1.67%</td>
-                            <td class="red">음봉 -1.89%</td>
-                            <td class="red">1.89%</td>
-                            <td>₩7,237,367,813</td>
+                            <td>$0.0002</td>
+                            <td class="green">양봉 0.66%</td>
+                            <td class="green">양봉 5.59%</td>
+                            <td class="red">음봉 -0.96%</td>
+                            <td class="red">0.96%</td>
+                            <td>₩37,299,731,654</td>
                         </tr>
 
                         <tr class="">
                             <td>14</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ESPORTSUSDT" target="_blank" class="symbol-link">ESPORTSUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/AIXBTUSDT" target="_blank" class="symbol-link">AIXBTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2183</td>
-                            <td class="green">양봉 1.96%</td>
-                            <td class="green">양봉 2.21%</td>
-                            <td class="red">음봉 -1.68%</td>
-                            <td class="red">1.68%</td>
-                            <td>₩10,634,449,368</td>
+                            <td>$0.0667</td>
+                            <td class="green">양봉 1.75%</td>
+                            <td class="green">양봉 4.11%</td>
+                            <td class="red">음봉 -0.95%</td>
+                            <td class="red">0.95%</td>
+                            <td>₩21,812,786,035</td>
                         </tr>
 
                         <tr class="">
                             <td>15</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/VELVETUSDT" target="_blank" class="symbol-link">VELVETUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/PTBUSDT" target="_blank" class="symbol-link">PTBUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2243</td>
-                            <td class="green">양봉 3.90%</td>
-                            <td class="green">양봉 0.43%</td>
-                            <td class="red">음봉 -1.64%</td>
-                            <td class="red">1.64%</td>
-                            <td>₩3,277,837,169</td>
+                            <td>$0.0286</td>
+                            <td class="green">양봉 0.75%</td>
+                            <td class="green">양봉 1.59%</td>
+                            <td class="red">음봉 -0.83%</td>
+                            <td class="red">0.83%</td>
+                            <td>₩3,777,048,489</td>
                         </tr>
 
                         <tr class="">
                             <td>16</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FARTCOINUSDT" target="_blank" class="symbol-link">FARTCOINUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ALCHUSDT" target="_blank" class="symbol-link">ALCHUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3021</td>
-                            <td class="green">양봉 1.00%</td>
-                            <td class="green">양봉 0.82%</td>
-                            <td class="red">음봉 -1.63%</td>
-                            <td class="red">1.63%</td>
-                            <td>₩138,931,316,913</td>
+                            <td>$0.0853</td>
+                            <td class="green">양봉 0.42%</td>
+                            <td class="green">양봉 0.08%</td>
+                            <td class="red">음봉 -0.80%</td>
+                            <td class="red">0.80%</td>
+                            <td>₩2,234,873,093</td>
                         </tr>
 
                         <tr class="">
                             <td>17</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/KGENUSDT" target="_blank" class="symbol-link">KGENUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TURBOUSDT" target="_blank" class="symbol-link">TURBOUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2529</td>
-                            <td class="green">양봉 1.49%</td>
-                            <td class="green">양봉 0.20%</td>
-                            <td class="red">음봉 -1.48%</td>
-                            <td class="red">1.48%</td>
-                            <td>₩16,806,403,381</td>
+                            <td>$0.0022</td>
+                            <td class="green">양봉 1.32%</td>
+                            <td class="green">양봉 2.75%</td>
+                            <td class="red">음봉 -0.80%</td>
+                            <td class="red">0.80%</td>
+                            <td>₩23,848,701,026</td>
                         </tr>
 
                         <tr class="">
                             <td>18</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ZETAUSDT" target="_blank" class="symbol-link">ZETAUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/BLESSUSDT" target="_blank" class="symbol-link">BLESSUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1073</td>
-                            <td class="green">양봉 2.38%</td>
-                            <td class="green">양봉 1.02%</td>
-                            <td class="red">음봉 -1.47%</td>
-                            <td class="red">1.47%</td>
-                            <td>₩3,932,975,345</td>
+                            <td>$0.0340</td>
+                            <td class="green">양봉 0.39%</td>
+                            <td class="green">양봉 3.22%</td>
+                            <td class="red">음봉 -0.79%</td>
+                            <td class="red">0.79%</td>
+                            <td>₩38,278,529,104</td>
                         </tr>
 
                         <tr class="">
                             <td>19</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ZKJUSDT" target="_blank" class="symbol-link">ZKJUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/PARTIUSDT" target="_blank" class="symbol-link">PARTIUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0714</td>
-                            <td class="green">양봉 3.38%</td>
-                            <td class="green">양봉 2.01%</td>
-                            <td class="red">음봉 -1.46%</td>
-                            <td class="red">1.46%</td>
-                            <td>₩4,459,069,086</td>
+                            <td>$0.0713</td>
+                            <td class="green">양봉 1.84%</td>
+                            <td class="green">양봉 2.41%</td>
+                            <td class="red">음봉 -0.77%</td>
+                            <td class="red">0.77%</td>
+                            <td>₩5,792,168,800</td>
                         </tr>
 
                         <tr class="">
                             <td>20</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HMSTRUSDT" target="_blank" class="symbol-link">HMSTRUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/BANKUSDT" target="_blank" class="symbol-link">BANKUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0003</td>
-                            <td class="green">양봉 2.02%</td>
+                            <td>$0.0710</td>
                             <td class="green">양봉 0.34%</td>
-                            <td class="red">음봉 -1.31%</td>
-                            <td class="red">1.31%</td>
-                            <td>₩4,572,619,902</td>
+                            <td class="green">양봉 0.82%</td>
+                            <td class="red">음봉 -0.74%</td>
+                            <td class="red">0.74%</td>
+                            <td>₩4,018,013,974</td>
                         </tr>
 
                         <tr class="">
                             <td>21</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/UMAUSDT" target="_blank" class="symbol-link">UMAUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000000MOGUSDT" target="_blank" class="symbol-link">1000000MOGUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$1.0150</td>
-                            <td class="green">양봉 1.88%</td>
-                            <td class="green">양봉 0.10%</td>
-                            <td class="red">음봉 -1.26%</td>
-                            <td class="red">1.26%</td>
-                            <td>₩50,141,209,032</td>
+                            <td>$0.3899</td>
+                            <td class="green">양봉 0.32%</td>
+                            <td class="green">양봉 3.92%</td>
+                            <td class="red">음봉 -0.61%</td>
+                            <td class="red">0.61%</td>
+                            <td>₩7,920,100,690</td>
                         </tr>
 
                         <tr class="">
                             <td>22</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SIRENUSDT" target="_blank" class="symbol-link">SIRENUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/STRKUSDT" target="_blank" class="symbol-link">STRKUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0805</td>
-                            <td class="green">양봉 0.39%</td>
-                            <td class="green">양봉 1.42%</td>
-                            <td class="red">음봉 -1.26%</td>
-                            <td class="red">1.26%</td>
-                            <td>₩3,417,000,731</td>
+                            <td>$0.1490</td>
+                            <td class="green">양봉 0.28%</td>
+                            <td class="green">양봉 4.90%</td>
+                            <td class="red">음봉 -0.60%</td>
+                            <td class="red">0.60%</td>
+                            <td>₩130,645,205,818</td>
                         </tr>
 
                         <tr class="">
                             <td>23</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MOVRUSDT" target="_blank" class="symbol-link">MOVRUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TONUSDT" target="_blank" class="symbol-link">TONUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$3.7480</td>
-                            <td class="green">양봉 1.99%</td>
-                            <td class="green">양봉 0.18%</td>
-                            <td class="red">음봉 -1.19%</td>
-                            <td class="red">1.19%</td>
-                            <td>₩16,085,132,611</td>
+                            <td>$2.1303</td>
+                            <td class="green">양봉 0.48%</td>
+                            <td class="green">양봉 3.36%</td>
+                            <td class="red">음봉 -0.55%</td>
+                            <td class="red">0.55%</td>
+                            <td>₩43,198,996,748</td>
                         </tr>
 
                         <tr class="">
                             <td>24</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/USUALUSDT" target="_blank" class="symbol-link">USUALUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ESPORTSUSDT" target="_blank" class="symbol-link">ESPORTSUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0333</td>
-                            <td class="green">양봉 3.56%</td>
-                            <td class="green">양봉 0.99%</td>
-                            <td class="red">음봉 -1.19%</td>
-                            <td class="red">1.19%</td>
-                            <td>₩6,610,825,519</td>
+                            <td>$0.2215</td>
+                            <td class="green">양봉 2.21%</td>
+                            <td class="green">양봉 0.35%</td>
+                            <td class="red">음봉 -0.51%</td>
+                            <td class="red">0.51%</td>
+                            <td>₩4,028,433,330</td>
                         </tr>
 
                         <tr class="">
                             <td>25</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HUSDT" target="_blank" class="symbol-link">HUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/BULLAUSDT" target="_blank" class="symbol-link">BULLAUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1998</td>
-                            <td class="green">양봉 2.55%</td>
-                            <td class="green">양봉 7.60%</td>
-                            <td class="red">음봉 -1.16%</td>
-                            <td class="red">1.16%</td>
-                            <td>₩117,837,381,925</td>
+                            <td>$0.0468</td>
+                            <td class="green">양봉 1.85%</td>
+                            <td class="green">양봉 4.31%</td>
+                            <td class="red">음봉 -0.49%</td>
+                            <td class="red">0.49%</td>
+                            <td>₩1,158,321,880</td>
                         </tr>
 
                         <tr class="">
                             <td>26</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/DAMUSDT" target="_blank" class="symbol-link">DAMUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/IMXUSDT" target="_blank" class="symbol-link">IMXUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0317</td>
-                            <td class="green">양봉 2.04%</td>
-                            <td class="green">양봉 4.80%</td>
-                            <td class="red">음봉 -1.09%</td>
-                            <td class="red">1.09%</td>
-                            <td>₩4,526,017,499</td>
+                            <td>$0.4328</td>
+                            <td class="green">양봉 0.14%</td>
+                            <td class="green">양봉 3.03%</td>
+                            <td class="red">음봉 -0.46%</td>
+                            <td class="red">0.46%</td>
+                            <td>₩20,855,549,616</td>
                         </tr>
 
                         <tr class="">
                             <td>27</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/PHAUSDT" target="_blank" class="symbol-link">PHAUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/LRCUSDT" target="_blank" class="symbol-link">LRCUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0638</td>
-                            <td class="green">양봉 0.21%</td>
-                            <td class="green">양봉 10.83%</td>
-                            <td class="red">음봉 -1.04%</td>
-                            <td class="red">1.04%</td>
-                            <td>₩12,068,046,238</td>
+                            <td>$0.0650</td>
+                            <td class="green">양봉 0.81%</td>
+                            <td class="green">양봉 2.32%</td>
+                            <td class="red">음봉 -0.46%</td>
+                            <td class="red">0.46%</td>
+                            <td>₩5,765,266,982</td>
                         </tr>
 
                         <tr class="">
                             <td>28</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/GHSTUSDT" target="_blank" class="symbol-link">GHSTUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TAUSDT" target="_blank" class="symbol-link">TAUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3069</td>
-                            <td class="green">양봉 0.88%</td>
-                            <td class="green">양봉 0.23%</td>
-                            <td class="red">음봉 -1.03%</td>
-                            <td class="red">1.03%</td>
-                            <td>₩6,620,443,364</td>
+                            <td>$0.0427</td>
+                            <td class="green">양봉 2.01%</td>
+                            <td class="green">양봉 1.92%</td>
+                            <td class="red">음봉 -0.44%</td>
+                            <td class="red">0.44%</td>
+                            <td>₩5,791,166,388</td>
                         </tr>
 
                         <tr class="">
                             <td>29</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ALTUSDT" target="_blank" class="symbol-link">ALTUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/AKTUSDT" target="_blank" class="symbol-link">AKTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0171</td>
-                            <td class="green">양봉 2.67%</td>
-                            <td class="green">양봉 2.12%</td>
-                            <td class="red">음봉 -0.98%</td>
-                            <td class="red">0.98%</td>
-                            <td>₩10,787,878,363</td>
+                            <td>$0.6445</td>
+                            <td class="green">양봉 0.77%</td>
+                            <td class="green">양봉 2.50%</td>
+                            <td class="red">음봉 -0.42%</td>
+                            <td class="red">0.42%</td>
+                            <td>₩3,654,104,893</td>
                         </tr>
 
                         <tr class="">
                             <td>30</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/UAIUSDT" target="_blank" class="symbol-link">UAIUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/VIRTUALUSDT" target="_blank" class="symbol-link">VIRTUALUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2183</td>
-                            <td class="green">양봉 9.77%</td>
-                            <td class="green">양봉 30.74%</td>
-                            <td class="red">음봉 -0.95%</td>
-                            <td class="red">0.95%</td>
-                            <td>₩409,264,318,756</td>
+                            <td>$1.3949</td>
+                            <td class="green">양봉 0.76%</td>
+                            <td class="green">양봉 4.93%</td>
+                            <td class="red">음봉 -0.34%</td>
+                            <td class="red">0.34%</td>
+                            <td>₩192,025,926,032</td>
                         </tr>
 
                         <tr class="">
                             <td>31</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000000BOBUSDT" target="_blank" class="symbol-link">1000000BOBUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TRADOORUSDT" target="_blank" class="symbol-link">TRADOORUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0339</td>
-                            <td class="green">양봉 3.73%</td>
-                            <td class="green">양봉 1.73%</td>
-                            <td class="red">음봉 -0.88%</td>
-                            <td class="red">0.88%</td>
-                            <td>₩1,794,442,137</td>
+                            <td>$2.3740</td>
+                            <td class="green">양봉 3.42%</td>
+                            <td class="green">양봉 7.98%</td>
+                            <td class="red">음봉 -0.34%</td>
+                            <td class="red">0.34%</td>
+                            <td>₩9,932,173,520</td>
                         </tr>
 
                         <tr class="">
                             <td>32</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000000MOGUSDT" target="_blank" class="symbol-link">1000000MOGUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ILVUSDT" target="_blank" class="symbol-link">ILVUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3742</td>
-                            <td class="green">양봉 5.76%</td>
-                            <td class="green">양봉 0.32%</td>
-                            <td class="red">음봉 -0.87%</td>
-                            <td class="red">0.87%</td>
-                            <td>₩7,790,034,037</td>
+                            <td>$10.7660</td>
+                            <td class="green">양봉 0.59%</td>
+                            <td class="green">양봉 1.88%</td>
+                            <td class="red">음봉 -0.33%</td>
+                            <td class="red">0.33%</td>
+                            <td>₩87,606,241,045</td>
                         </tr>
 
                         <tr class="">
                             <td>33</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/PHBUSDT" target="_blank" class="symbol-link">PHBUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ETCUSDT" target="_blank" class="symbol-link">ETCUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3773</td>
-                            <td class="green">양봉 2.94%</td>
-                            <td class="green">양봉 0.71%</td>
-                            <td class="red">음봉 -0.84%</td>
-                            <td class="red">0.84%</td>
-                            <td>₩5,083,509,589</td>
+                            <td>$16.0850</td>
+                            <td class="green">양봉 0.04%</td>
+                            <td class="green">양봉 0.29%</td>
+                            <td class="red">음봉 -0.30%</td>
+                            <td class="red">0.30%</td>
+                            <td>₩143,257,667,199</td>
                         </tr>
 
                         <tr class="">
                             <td>34</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/TRUSTUSDT" target="_blank" class="symbol-link">TRUSTUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/DYDXUSDT" target="_blank" class="symbol-link">DYDXUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2069</td>
-                            <td class="green">양봉 2.03%</td>
-                            <td class="green">양봉 1.07%</td>
-                            <td class="red">음봉 -0.81%</td>
-                            <td class="red">0.81%</td>
-                            <td>₩82,216,473,664</td>
+                            <td>$0.3310</td>
+                            <td class="green">양봉 0.31%</td>
+                            <td class="green">양봉 3.12%</td>
+                            <td class="red">음봉 -0.30%</td>
+                            <td class="red">0.30%</td>
+                            <td>₩42,549,572,004</td>
                         </tr>
 
                         <tr class="">
                             <td>35</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MINAUSDT" target="_blank" class="symbol-link">MINAUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/MANAUSDT" target="_blank" class="symbol-link">MANAUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1599</td>
-                            <td class="green">양봉 0.63%</td>
-                            <td class="green">양봉 1.45%</td>
-                            <td class="red">음봉 -0.81%</td>
-                            <td class="red">0.81%</td>
-                            <td>₩86,850,463,149</td>
+                            <td>$0.2348</td>
+                            <td class="green">양봉 0.04%</td>
+                            <td class="green">양봉 2.12%</td>
+                            <td class="red">음봉 -0.30%</td>
+                            <td class="red">0.30%</td>
+                            <td>₩22,162,408,909</td>
                         </tr>
 
                         <tr class="">
                             <td>36</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/STORJUSDT" target="_blank" class="symbol-link">STORJUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/JSTUSDT" target="_blank" class="symbol-link">JSTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1748</td>
-                            <td class="green">양봉 0.99%</td>
-                            <td class="green">양봉 1.62%</td>
-                            <td class="red">음봉 -0.79%</td>
-                            <td class="red">0.79%</td>
-                            <td>₩18,744,828,343</td>
+                            <td>$0.0362</td>
+                            <td class="green">양봉 0.19%</td>
+                            <td class="green">양봉 0.74%</td>
+                            <td class="red">음봉 -0.29%</td>
+                            <td class="red">0.29%</td>
+                            <td>₩2,361,979,302</td>
                         </tr>
 
                         <tr class="">
                             <td>37</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HOOKUSDT" target="_blank" class="symbol-link">HOOKUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/TOKENUSDT" target="_blank" class="symbol-link">TOKENUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0602</td>
-                            <td class="green">양봉 0.51%</td>
-                            <td class="green">양봉 0.18%</td>
-                            <td class="red">음봉 -0.79%</td>
-                            <td class="red">0.79%</td>
-                            <td>₩21,891,665,174</td>
+                            <td>$0.0073</td>
+                            <td class="green">양봉 0.72%</td>
+                            <td class="green">양봉 4.65%</td>
+                            <td class="red">음봉 -0.27%</td>
+                            <td class="red">0.27%</td>
+                            <td>₩2,398,327,449</td>
                         </tr>
 
                         <tr class="">
                             <td>38</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/CHRUSDT" target="_blank" class="symbol-link">CHRUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/VELODROMEUSDT" target="_blank" class="symbol-link">VELODROMEUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0757</td>
-                            <td class="green">양봉 0.80%</td>
-                            <td class="green">양봉 0.66%</td>
-                            <td class="red">음봉 -0.79%</td>
-                            <td class="red">0.79%</td>
-                            <td>₩4,206,879,654</td>
+                            <td>$0.0369</td>
+                            <td class="green">양봉 0.08%</td>
+                            <td class="green">양봉 3.21%</td>
+                            <td class="red">음봉 -0.27%</td>
+                            <td class="red">0.27%</td>
+                            <td>₩2,000,267,558</td>
                         </tr>
 
                         <tr class="">
                             <td>39</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1INCHUSDT" target="_blank" class="symbol-link">1INCHUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ALTUSDT" target="_blank" class="symbol-link">ALTUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1999</td>
-                            <td class="green">양봉 0.97%</td>
-                            <td class="green">양봉 1.72%</td>
-                            <td class="red">음봉 -0.65%</td>
-                            <td class="red">0.65%</td>
-                            <td>₩16,692,417,658</td>
+                            <td>$0.0175</td>
+                            <td class="green">양봉 2.12%</td>
+                            <td class="green">양봉 1.44%</td>
+                            <td class="red">음봉 -0.23%</td>
+                            <td class="red">0.23%</td>
+                            <td>₩9,308,128,227</td>
                         </tr>
 
                         <tr class="">
                             <td>40</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MOODENGUSDT" target="_blank" class="symbol-link">MOODENGUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000XECUSDT" target="_blank" class="symbol-link">1000XECUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0917</td>
-                            <td class="green">양봉 3.98%</td>
-                            <td class="green">양봉 0.59%</td>
-                            <td class="red">음봉 -0.61%</td>
-                            <td class="red">0.61%</td>
-                            <td>₩18,563,952,690</td>
+                            <td>$0.0148</td>
+                            <td class="green">양봉 0.90%</td>
+                            <td class="green">양봉 1.85%</td>
+                            <td class="red">음봉 -0.20%</td>
+                            <td class="red">0.20%</td>
+                            <td>₩1,494,219,496</td>
                         </tr>
 
                         <tr class="">
                             <td>41</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/XVGUSDT" target="_blank" class="symbol-link">XVGUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/POWRUSDT" target="_blank" class="symbol-link">POWRUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0075</td>
-                            <td class="green">양봉 5.29%</td>
-                            <td class="green">양봉 1.44%</td>
-                            <td class="red">음봉 -0.59%</td>
-                            <td class="red">0.59%</td>
-                            <td>₩24,511,747,946</td>
+                            <td>$0.1071</td>
+                            <td class="green">양봉 0.38%</td>
+                            <td class="green">양봉 2.29%</td>
+                            <td class="red">음봉 -0.19%</td>
+                            <td class="red">0.19%</td>
+                            <td>₩2,760,403,792</td>
                         </tr>
 
                         <tr class="">
                             <td>42</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/VFYUSDT" target="_blank" class="symbol-link">VFYUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/QUSDT" target="_blank" class="symbol-link">QUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0549</td>
-                            <td class="green">양봉 1.92%</td>
-                            <td class="green">양봉 4.21%</td>
-                            <td class="red">음봉 -0.58%</td>
-                            <td class="red">0.58%</td>
-                            <td>₩10,423,374,660</td>
+                            <td>$0.0229</td>
+                            <td class="green">양봉 1.09%</td>
+                            <td class="green">양봉 1.71%</td>
+                            <td class="red">음봉 -0.18%</td>
+                            <td class="red">0.18%</td>
+                            <td>₩4,867,506,986</td>
                         </tr>
 
                         <tr class="">
                             <td>43</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ETCUSDT" target="_blank" class="symbol-link">ETCUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ZKJUSDT" target="_blank" class="symbol-link">ZKJUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$16.0000</td>
-                            <td class="green">양봉 1.12%</td>
-                            <td class="green">양봉 0.04%</td>
-                            <td class="red">음봉 -0.55%</td>
-                            <td class="red">0.55%</td>
-                            <td>₩161,057,219,760</td>
+                            <td>$0.0727</td>
+                            <td class="green">양봉 2.01%</td>
+                            <td class="green">양봉 0.40%</td>
+                            <td class="red">음봉 -0.18%</td>
+                            <td class="red">0.18%</td>
+                            <td>₩3,528,111,806</td>
                         </tr>
 
                         <tr class="">
                             <td>44</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BICOUSDT" target="_blank" class="symbol-link">BICOUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/WLDUSDT" target="_blank" class="symbol-link">WLDUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0611</td>
-                            <td class="green">양봉 1.57%</td>
-                            <td class="green">양봉 0.95%</td>
-                            <td class="red">음봉 -0.54%</td>
-                            <td class="red">0.54%</td>
-                            <td>₩2,426,407,060</td>
+                            <td>$0.8171</td>
+                            <td class="green">양봉 0.04%</td>
+                            <td class="green">양봉 2.20%</td>
+                            <td class="red">음봉 -0.16%</td>
+                            <td class="red">0.16%</td>
+                            <td>₩133,911,174,290</td>
                         </tr>
 
                         <tr class="">
                             <td>45</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000SHIBUSDT" target="_blank" class="symbol-link">1000SHIBUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/REDUSDT" target="_blank" class="symbol-link">REDUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0099</td>
-                            <td class="green">양봉 2.07%</td>
-                            <td class="green">양봉 0.92%</td>
-                            <td class="red">음봉 -0.52%</td>
-                            <td class="red">0.52%</td>
-                            <td>₩138,965,401,130</td>
+                            <td>$0.3319</td>
+                            <td class="green">양봉 0.41%</td>
+                            <td class="green">양봉 5.12%</td>
+                            <td class="red">음봉 -0.15%</td>
+                            <td class="red">0.15%</td>
+                            <td>₩4,502,527,769</td>
                         </tr>
 
                         <tr class="">
                             <td>46</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ANKRUSDT" target="_blank" class="symbol-link">ANKRUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/LSKUSDT" target="_blank" class="symbol-link">LSKUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0099</td>
-                            <td class="green">양봉 2.48%</td>
-                            <td class="green">양봉 0.10%</td>
-                            <td class="red">음봉 -0.50%</td>
-                            <td class="red">0.50%</td>
-                            <td>₩7,704,263,230</td>
+                            <td>$0.2069</td>
+                            <td class="green">양봉 0.20%</td>
+                            <td class="green">양봉 2.27%</td>
+                            <td class="red">음봉 -0.14%</td>
+                            <td class="red">0.14%</td>
+                            <td>₩2,899,516,796</td>
                         </tr>
 
                         <tr class="">
                             <td>47</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SYRUPUSDT" target="_blank" class="symbol-link">SYRUPUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000XUSDT" target="_blank" class="symbol-link">1000XUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.4435</td>
-                            <td class="green">양봉 1.64%</td>
-                            <td class="green">양봉 0.25%</td>
-                            <td class="red">음봉 -0.49%</td>
-                            <td class="red">0.49%</td>
-                            <td>₩36,496,656,035</td>
+                            <td>$0.0316</td>
+                            <td class="green">양봉 0.06%</td>
+                            <td class="green">양봉 1.54%</td>
+                            <td class="red">음봉 -0.09%</td>
+                            <td class="red">0.09%</td>
+                            <td>₩1,248,335,189</td>
                         </tr>
 
                         <tr class="">
                             <td>48</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000XECUSDT" target="_blank" class="symbol-link">1000XECUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ACXUSDT" target="_blank" class="symbol-link">ACXUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0145</td>
-                            <td class="green">양봉 1.33%</td>
-                            <td class="green">양봉 0.90%</td>
-                            <td class="red">음봉 -0.48%</td>
-                            <td class="red">0.48%</td>
-                            <td>₩1,935,666,009</td>
+                            <td>$0.0750</td>
+                            <td class="green">양봉 0.57%</td>
+                            <td class="green">양봉 4.35%</td>
+                            <td class="red">음봉 -0.08%</td>
+                            <td class="red">0.08%</td>
+                            <td>₩2,674,100,073</td>
                         </tr>
 
                         <tr class="">
                             <td>49</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ATOMUSDT" target="_blank" class="symbol-link">ATOMUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/RLCUSDT" target="_blank" class="symbol-link">RLCUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$2.9000</td>
-                            <td class="green">양봉 1.68%</td>
-                            <td class="green">양봉 0.52%</td>
-                            <td class="red">음봉 -0.48%</td>
-                            <td class="red">0.48%</td>
-                            <td>₩69,853,345,483</td>
+                            <td>$0.8966</td>
+                            <td class="green">양봉 0.77%</td>
+                            <td class="green">양봉 2.07%</td>
+                            <td class="red">음봉 -0.07%</td>
+                            <td class="red">0.07%</td>
+                            <td>₩15,726,582,476</td>
                         </tr>
 
                         <tr class="">
                             <td>50</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SSVUSDT" target="_blank" class="symbol-link">SSVUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/GLMUSDT" target="_blank" class="symbol-link">GLMUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$4.5800</td>
-                            <td class="green">양봉 1.77%</td>
-                            <td class="green">양봉 1.25%</td>
-                            <td class="red">음봉 -0.48%</td>
-                            <td class="red">0.48%</td>
-                            <td>₩8,445,747,006</td>
+                            <td>$0.2102</td>
+                            <td class="green">양봉 0.51%</td>
+                            <td class="green">양봉 0.72%</td>
+                            <td class="red">음봉 -0.06%</td>
+                            <td class="red">0.06%</td>
+                            <td>₩11,822,312,834</td>
                         </tr>
 
                         <tr class="">
                             <td>51</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/LPTUSDT" target="_blank" class="symbol-link">LPTUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/DIAUSDT" target="_blank" class="symbol-link">DIAUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$5.2430</td>
-                            <td class="green">양봉 1.45%</td>
-                            <td class="green">양봉 0.57%</td>
-                            <td class="red">음봉 -0.47%</td>
-                            <td class="red">0.47%</td>
-                            <td>₩25,110,643,012</td>
+                            <td>$0.4774</td>
+                            <td class="green">양봉 0.50%</td>
+                            <td class="green">양봉 2.23%</td>
+                            <td class="red">음봉 -0.04%</td>
+                            <td class="red">0.04%</td>
+                            <td>₩3,090,815,930</td>
                         </tr>
 
                         <tr class="">
                             <td>52</td>
                             <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/PUFFERUSDT" target="_blank" class="symbol-link">PUFFERUSDT</a></td>
+                            <td class="symbol"><a href="https://www.binance.com/en/futures/ETHWUSDT" target="_blank" class="symbol-link">ETHWUSDT</a></td>
                             <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0821</td>
-                            <td class="green">양봉 1.86%</td>
-                            <td class="green">양봉 0.62%</td>
-                            <td class="red">음봉 -0.46%</td>
-                            <td class="red">0.46%</td>
-                            <td>₩2,190,611,111</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>53</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ALGOUSDT" target="_blank" class="symbol-link">ALGOUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1747</td>
-                            <td class="green">양봉 1.81%</td>
-                            <td class="green">양봉 0.63%</td>
-                            <td class="red">음봉 -0.46%</td>
-                            <td class="red">0.46%</td>
-                            <td>₩29,789,923,289</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>54</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/VICUSDT" target="_blank" class="symbol-link">VICUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1346</td>
-                            <td class="green">양봉 2.36%</td>
-                            <td class="green">양봉 0.52%</td>
-                            <td class="red">음봉 -0.44%</td>
-                            <td class="red">0.44%</td>
-                            <td>₩1,247,888,017</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>55</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/CTSIUSDT" target="_blank" class="symbol-link">CTSIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0475</td>
-                            <td class="green">양봉 2.37%</td>
-                            <td class="green">양봉 0.42%</td>
-                            <td class="red">음봉 -0.42%</td>
-                            <td class="red">0.42%</td>
-                            <td>₩3,175,554,253</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>56</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ARKUSDT" target="_blank" class="symbol-link">ARKUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3089</td>
-                            <td class="green">양봉 1.53%</td>
-                            <td class="green">양봉 1.31%</td>
-                            <td class="red">음봉 -0.42%</td>
-                            <td class="red">0.42%</td>
-                            <td>₩2,542,588,619</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>57</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000RATSUSDT" target="_blank" class="symbol-link">1000RATSUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0365</td>
-                            <td class="green">양봉 2.18%</td>
-                            <td class="green">양봉 0.36%</td>
-                            <td class="red">음봉 -0.41%</td>
-                            <td class="red">0.41%</td>
-                            <td>₩7,132,060,256</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>58</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/JTOUSDT" target="_blank" class="symbol-link">JTOUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.7741</td>
-                            <td class="green">양봉 1.40%</td>
-                            <td class="green">양봉 0.27%</td>
-                            <td class="red">음봉 -0.40%</td>
-                            <td class="red">0.40%</td>
-                            <td>₩21,639,426,441</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>59</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/GRTUSDT" target="_blank" class="symbol-link">GRTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0646</td>
-                            <td class="green">양봉 1.14%</td>
-                            <td class="green">양봉 0.11%</td>
-                            <td class="red">음봉 -0.39%</td>
-                            <td class="red">0.39%</td>
-                            <td>₩19,311,607,453</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>60</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FLOWUSDT" target="_blank" class="symbol-link">FLOWUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2750</td>
-                            <td class="green">양봉 1.85%</td>
-                            <td class="green">양봉 0.73%</td>
-                            <td class="red">음봉 -0.36%</td>
-                            <td class="red">0.36%</td>
-                            <td>₩34,258,114,832</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>61</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ACTUSDT" target="_blank" class="symbol-link">ACTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0193</td>
-                            <td class="green">양봉 4.54%</td>
+                            <td>$0.8927</td>
                             <td class="green">양봉 0.41%</td>
-                            <td class="red">음봉 -0.36%</td>
-                            <td class="red">0.36%</td>
-                            <td>₩6,514,236,587</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>62</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BRETTUSDT" target="_blank" class="symbol-link">BRETTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0222</td>
-                            <td class="green">양봉 2.87%</td>
-                            <td class="green">양봉 0.36%</td>
-                            <td class="red">음봉 -0.36%</td>
-                            <td class="red">0.36%</td>
-                            <td>₩6,868,570,315</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>63</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/DYMUSDT" target="_blank" class="symbol-link">DYMUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0962</td>
-                            <td class="green">양봉 4.34%</td>
-                            <td class="green">양봉 0.69%</td>
-                            <td class="red">음봉 -0.34%</td>
-                            <td class="red">0.34%</td>
-                            <td>₩5,762,870,725</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>64</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/QNTUSDT" target="_blank" class="symbol-link">QNTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$82.6400</td>
-                            <td class="green">양봉 1.71%</td>
-                            <td class="green">양봉 0.36%</td>
-                            <td class="red">음봉 -0.34%</td>
-                            <td class="red">0.34%</td>
-                            <td>₩9,214,866,975</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>65</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SIGNUSDT" target="_blank" class="symbol-link">SIGNUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0394</td>
-                            <td class="green">양봉 1.75%</td>
-                            <td class="green">양봉 1.38%</td>
-                            <td class="red">음봉 -0.33%</td>
-                            <td class="red">0.33%</td>
-                            <td>₩4,848,756,856</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>66</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MTLUSDT" target="_blank" class="symbol-link">MTLUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.4608</td>
-                            <td class="green">양봉 1.81%</td>
-                            <td class="green">양봉 0.06%</td>
-                            <td class="red">음봉 -0.32%</td>
-                            <td class="red">0.32%</td>
-                            <td>₩1,655,501,303</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>67</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BANKUSDT" target="_blank" class="symbol-link">BANKUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0707</td>
-                            <td class="green">양봉 1.74%</td>
-                            <td class="green">양봉 0.34%</td>
-                            <td class="red">음봉 -0.30%</td>
-                            <td class="red">0.30%</td>
-                            <td>₩4,692,769,221</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>68</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/GMTUSDT" target="_blank" class="symbol-link">GMTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0237</td>
-                            <td class="green">양봉 1.50%</td>
-                            <td class="green">양봉 0.08%</td>
-                            <td class="red">음봉 -0.29%</td>
-                            <td class="red">0.29%</td>
-                            <td>₩7,765,591,507</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>69</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/TURBOUSDT" target="_blank" class="symbol-link">TURBOUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0021</td>
-                            <td class="green">양봉 1.63%</td>
-                            <td class="green">양봉 1.32%</td>
-                            <td class="red">음봉 -0.29%</td>
-                            <td class="red">0.29%</td>
-                            <td>₩16,589,908,326</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>70</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/OMUSDT" target="_blank" class="symbol-link">OMUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0957</td>
-                            <td class="green">양봉 2.56%</td>
-                            <td class="green">양봉 0.32%</td>
-                            <td class="red">음봉 -0.29%</td>
-                            <td class="red">0.29%</td>
-                            <td>₩34,546,055,510</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>71</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/RDNTUSDT" target="_blank" class="symbol-link">RDNTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0146</td>
-                            <td class="green">양봉 2.70%</td>
-                            <td class="green">양봉 0.76%</td>
-                            <td class="red">음봉 -0.27%</td>
-                            <td class="red">0.27%</td>
-                            <td>₩2,829,183,002</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>72</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HANAUSDT" target="_blank" class="symbol-link">HANAUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0258</td>
-                            <td class="green">양봉 2.52%</td>
-                            <td class="green">양봉 2.45%</td>
-                            <td class="red">음봉 -0.27%</td>
-                            <td class="red">0.27%</td>
-                            <td>₩9,025,558,048</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>73</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/YFIUSDT" target="_blank" class="symbol-link">YFIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$4822.0000</td>
-                            <td class="green">양봉 1.35%</td>
-                            <td class="green">양봉 0.48%</td>
-                            <td class="red">음봉 -0.27%</td>
-                            <td class="red">0.27%</td>
-                            <td>₩7,593,450,601</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>74</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/GPSUSDT" target="_blank" class="symbol-link">GPSUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0064</td>
-                            <td class="green">양봉 3.88%</td>
-                            <td class="green">양봉 0.22%</td>
-                            <td class="red">음봉 -0.26%</td>
-                            <td class="red">0.26%</td>
-                            <td>₩2,915,570,448</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>75</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SPELLUSDT" target="_blank" class="symbol-link">SPELLUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0003</td>
-                            <td class="green">양봉 1.60%</td>
-                            <td class="green">양봉 1.31%</td>
-                            <td class="red">음봉 -0.26%</td>
-                            <td class="red">0.26%</td>
-                            <td>₩3,085,499,302</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>76</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/APEUSDT" target="_blank" class="symbol-link">APEUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.3887</td>
-                            <td class="green">양봉 2.29%</td>
-                            <td class="green">양봉 0.41%</td>
-                            <td class="red">음봉 -0.26%</td>
-                            <td class="red">0.26%</td>
-                            <td>₩16,687,100,986</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>77</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BNBUSDT" target="_blank" class="symbol-link">BNBUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$987.6200</td>
-                            <td class="green">양봉 0.88%</td>
-                            <td class="green">양봉 0.08%</td>
-                            <td class="red">음봉 -0.26%</td>
-                            <td class="red">0.26%</td>
-                            <td>₩884,253,397,177</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>78</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/WIFUSDT" target="_blank" class="symbol-link">WIFUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.4708</td>
-                            <td class="green">양봉 3.15%</td>
-                            <td class="green">양봉 0.83%</td>
-                            <td class="red">음봉 -0.25%</td>
-                            <td class="red">0.25%</td>
-                            <td>₩123,950,212,655</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>79</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SKYAIUSDT" target="_blank" class="symbol-link">SKYAIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0199</td>
-                            <td class="green">양봉 1.39%</td>
-                            <td class="green">양봉 1.12%</td>
-                            <td class="red">음봉 -0.25%</td>
-                            <td class="red">0.25%</td>
-                            <td>₩4,635,210,634</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>80</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/NEIROUSDT" target="_blank" class="symbol-link">NEIROUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0002</td>
-                            <td class="green">양봉 2.96%</td>
-                            <td class="green">양봉 0.66%</td>
-                            <td class="red">음봉 -0.24%</td>
-                            <td class="red">0.24%</td>
-                            <td>₩31,703,231,807</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>81</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SOPHUSDT" target="_blank" class="symbol-link">SOPHUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0228</td>
-                            <td class="green">양봉 1.43%</td>
-                            <td class="green">양봉 0.08%</td>
-                            <td class="red">음봉 -0.23%</td>
-                            <td class="red">0.23%</td>
-                            <td>₩5,563,663,607</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>82</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/STBLUSDT" target="_blank" class="symbol-link">STBLUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0754</td>
-                            <td class="green">양봉 2.49%</td>
-                            <td class="green">양봉 2.59%</td>
-                            <td class="red">음봉 -0.21%</td>
-                            <td class="red">0.21%</td>
-                            <td>₩11,068,636,609</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>83</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SYNUSDT" target="_blank" class="symbol-link">SYNUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0716</td>
-                            <td class="green">양봉 2.19%</td>
-                            <td class="green">양봉 0.06%</td>
-                            <td class="red">음봉 -0.21%</td>
-                            <td class="red">0.21%</td>
-                            <td>₩3,428,060,931</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>84</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/B3USDT" target="_blank" class="symbol-link">B3USDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0021</td>
-                            <td class="green">양봉 0.54%</td>
-                            <td class="green">양봉 0.83%</td>
-                            <td class="red">음봉 -0.19%</td>
-                            <td class="red">0.19%</td>
-                            <td>₩2,155,699,856</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>85</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/ORDERUSDT" target="_blank" class="symbol-link">ORDERUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1674</td>
-                            <td class="green">양봉 2.40%</td>
-                            <td class="green">양봉 0.14%</td>
-                            <td class="red">음봉 -0.19%</td>
-                            <td class="red">0.19%</td>
-                            <td>₩5,105,156,264</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>86</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MLNUSDT" target="_blank" class="symbol-link">MLNUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$6.5200</td>
-                            <td class="green">양봉 5.33%</td>
-                            <td class="green">양봉 2.09%</td>
-                            <td class="red">음봉 -0.18%</td>
-                            <td class="red">0.18%</td>
-                            <td>₩12,598,507,116</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>87</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/MANAUSDT" target="_blank" class="symbol-link">MANAUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2303</td>
-                            <td class="green">양봉 2.90%</td>
-                            <td class="green">양봉 0.04%</td>
-                            <td class="red">음봉 -0.17%</td>
-                            <td class="red">0.17%</td>
-                            <td>₩23,928,939,285</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>88</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/LRCUSDT" target="_blank" class="symbol-link">LRCUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0637</td>
-                            <td class="green">양봉 1.10%</td>
-                            <td class="green">양봉 0.81%</td>
-                            <td class="red">음봉 -0.17%</td>
-                            <td class="red">0.17%</td>
-                            <td>₩6,275,918,389</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>89</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BTCUSDT" target="_blank" class="symbol-link">BTCUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$102026.9000</td>
-                            <td class="green">양봉 0.27%</td>
-                            <td class="green">양봉 0.29%</td>
-                            <td class="red">음봉 -0.17%</td>
-                            <td class="red">0.17%</td>
-                            <td>₩7,885,833,734,000</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>90</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/1000XUSDT" target="_blank" class="symbol-link">1000XUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0312</td>
-                            <td class="green">양봉 2.00%</td>
-                            <td class="green">양봉 0.06%</td>
-                            <td class="red">음봉 -0.16%</td>
-                            <td class="red">0.16%</td>
-                            <td>₩1,365,119,629</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>91</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FXSUSDT" target="_blank" class="symbol-link">FXSUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$1.2121</td>
-                            <td class="green">양봉 1.82%</td>
-                            <td class="green">양봉 0.77%</td>
-                            <td class="red">음봉 -0.16%</td>
-                            <td class="red">0.16%</td>
-                            <td>₩5,054,866,081</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>92</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HOTUSDT" target="_blank" class="symbol-link">HOTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0006</td>
-                            <td class="green">양봉 2.42%</td>
-                            <td class="green">양봉 1.10%</td>
-                            <td class="red">음봉 -0.16%</td>
-                            <td class="red">0.16%</td>
-                            <td>₩10,960,880,773</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>93</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/TUTUSDT" target="_blank" class="symbol-link">TUTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0193</td>
-                            <td class="green">양봉 5.27%</td>
-                            <td class="green">양봉 1.10%</td>
-                            <td class="red">음봉 -0.15%</td>
-                            <td class="red">0.15%</td>
-                            <td>₩6,725,987,594</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>94</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/EULUSDT" target="_blank" class="symbol-link">EULUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$5.8500</td>
-                            <td class="green">양봉 0.85%</td>
-                            <td class="green">양봉 0.48%</td>
-                            <td class="red">음봉 -0.15%</td>
-                            <td class="red">0.15%</td>
-                            <td>₩8,014,241,068</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>95</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/COMPUSDT" target="_blank" class="symbol-link">COMPUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$33.7500</td>
-                            <td class="green">양봉 2.03%</td>
-                            <td class="green">양봉 0.60%</td>
-                            <td class="red">음봉 -0.15%</td>
-                            <td class="red">0.15%</td>
-                            <td>₩16,112,175,364</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>96</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/WOOUSDT" target="_blank" class="symbol-link">WOOUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0342</td>
-                            <td class="green">양봉 2.95%</td>
-                            <td class="green">양봉 0.20%</td>
-                            <td class="red">음봉 -0.15%</td>
-                            <td class="red">0.15%</td>
-                            <td>₩3,320,588,076</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>97</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FORTHUSDT" target="_blank" class="symbol-link">FORTHUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$2.1640</td>
-                            <td class="green">양봉 1.90%</td>
-                            <td class="green">양봉 0.88%</td>
-                            <td class="red">음봉 -0.14%</td>
-                            <td class="red">0.14%</td>
-                            <td>₩1,338,640,990</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>98</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/CHESSUSDT" target="_blank" class="symbol-link">CHESSUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0443</td>
-                            <td class="green">양봉 1.92%</td>
-                            <td class="green">양봉 0.84%</td>
-                            <td class="red">음봉 -0.14%</td>
-                            <td class="red">0.14%</td>
-                            <td>₩1,720,302,218</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>99</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/QUSDT" target="_blank" class="symbol-link">QUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0225</td>
-                            <td class="green">양봉 1.92%</td>
-                            <td class="green">양봉 1.09%</td>
-                            <td class="red">음봉 -0.13%</td>
-                            <td class="red">0.13%</td>
-                            <td>₩7,456,649,119</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>100</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/XNYUSDT" target="_blank" class="symbol-link">XNYUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0046</td>
-                            <td class="green">양봉 2.87%</td>
-                            <td class="green">양봉 0.15%</td>
-                            <td class="red">음봉 -0.13%</td>
-                            <td class="red">0.13%</td>
-                            <td>₩2,175,433,510</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>101</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/WLDUSDT" target="_blank" class="symbol-link">WLDUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.7997</td>
-                            <td class="green">양봉 2.05%</td>
-                            <td class="green">양봉 0.04%</td>
-                            <td class="red">음봉 -0.12%</td>
-                            <td class="red">0.12%</td>
-                            <td>₩147,906,370,233</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>102</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/BROCCOLIF3BUSDT" target="_blank" class="symbol-link">BROCCOLIF3BUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0096</td>
-                            <td class="green">양봉 2.12%</td>
-                            <td class="green">양봉 1.03%</td>
-                            <td class="red">음봉 -0.12%</td>
-                            <td class="red">0.12%</td>
-                            <td>₩2,472,728,680</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>103</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/GASUSDT" target="_blank" class="symbol-link">GASUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$2.4520</td>
-                            <td class="green">양봉 1.07%</td>
-                            <td class="green">양봉 0.24%</td>
-                            <td class="red">음봉 -0.12%</td>
-                            <td class="red">0.12%</td>
-                            <td>₩2,341,020,439</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>104</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/TNSRUSDT" target="_blank" class="symbol-link">TNSRUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0498</td>
-                            <td class="green">양봉 2.30%</td>
-                            <td class="green">양봉 0.30%</td>
-                            <td class="red">음봉 -0.12%</td>
-                            <td class="red">0.12%</td>
-                            <td>₩9,866,322,170</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>105</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/COTIUSDT" target="_blank" class="symbol-link">COTIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0345</td>
-                            <td class="green">양봉 0.53%</td>
-                            <td class="green">양봉 1.65%</td>
-                            <td class="red">음봉 -0.12%</td>
-                            <td class="red">0.12%</td>
-                            <td>₩6,854,572,545</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>106</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/PTBUSDT" target="_blank" class="symbol-link">PTBUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0284</td>
-                            <td class="green">양봉 5.15%</td>
-                            <td class="green">양봉 0.75%</td>
-                            <td class="red">음봉 -0.11%</td>
-                            <td class="red">0.11%</td>
-                            <td>₩4,021,722,677</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>107</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/SYSUSDT" target="_blank" class="symbol-link">SYSUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0297</td>
-                            <td class="green">양봉 2.35%</td>
-                            <td class="green">양봉 0.54%</td>
-                            <td class="red">음봉 -0.10%</td>
-                            <td class="red">0.10%</td>
-                            <td>₩2,723,761,862</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>108</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/LSKUSDT" target="_blank" class="symbol-link">LSKUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2024</td>
-                            <td class="green">양봉 1.97%</td>
-                            <td class="green">양봉 0.20%</td>
-                            <td class="red">음봉 -0.10%</td>
-                            <td class="red">0.10%</td>
-                            <td>₩3,730,567,348</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>109</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/WUSDT" target="_blank" class="symbol-link">WUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0626</td>
-                            <td class="green">양봉 3.14%</td>
-                            <td class="green">양봉 0.40%</td>
-                            <td class="red">음봉 -0.10%</td>
-                            <td class="red">0.10%</td>
-                            <td>₩23,952,434,877</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>110</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/IOSTUSDT" target="_blank" class="symbol-link">IOSTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0021</td>
-                            <td class="green">양봉 1.96%</td>
-                            <td class="green">양봉 0.56%</td>
-                            <td class="red">음봉 -0.09%</td>
-                            <td class="red">0.09%</td>
-                            <td>₩2,197,492,123</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>111</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HEIUSDT" target="_blank" class="symbol-link">HEIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.2302</td>
-                            <td class="green">양봉 1.87%</td>
-                            <td class="green">양봉 0.44%</td>
-                            <td class="red">음봉 -0.09%</td>
-                            <td class="red">0.09%</td>
-                            <td>₩1,543,949,539</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>112</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/STGUSDT" target="_blank" class="symbol-link">STGUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1447</td>
-                            <td class="green">양봉 2.72%</td>
-                            <td class="green">양봉 0.91%</td>
-                            <td class="red">음봉 -0.07%</td>
-                            <td class="red">0.07%</td>
-                            <td>₩5,272,618,027</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>113</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/HFTUSDT" target="_blank" class="symbol-link">HFTUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0453</td>
-                            <td class="green">양봉 1.25%</td>
-                            <td class="green">양봉 1.34%</td>
-                            <td class="red">음봉 -0.07%</td>
-                            <td class="red">0.07%</td>
-                            <td>₩4,357,055,470</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>114</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/EDUUSDT" target="_blank" class="symbol-link">EDUUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.1660</td>
-                            <td class="green">양봉 2.18%</td>
-                            <td class="green">양봉 1.22%</td>
-                            <td class="red">음봉 -0.06%</td>
-                            <td class="red">0.06%</td>
-                            <td>₩4,355,978,692</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>115</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/FHEUSDT" target="_blank" class="symbol-link">FHEUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0341</td>
-                            <td class="green">양봉 1.14%</td>
-                            <td class="green">양봉 1.33%</td>
-                            <td class="red">음봉 -0.06%</td>
-                            <td class="red">0.06%</td>
-                            <td>₩2,849,590,203</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>116</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/AEVOUSDT" target="_blank" class="symbol-link">AEVOUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0578</td>
-                            <td class="green">양봉 1.87%</td>
-                            <td class="green">양봉 0.28%</td>
-                            <td class="red">음봉 -0.03%</td>
-                            <td class="red">0.03%</td>
-                            <td>₩5,950,771,604</td>
-                        </tr>
-
-                        <tr class="">
-                            <td>117</td>
-                            <td>일반</td>
-                            <td class="symbol"><a href="https://www.binance.com/en/futures/PARTIUSDT" target="_blank" class="symbol-link">PARTIUSDT</a></td>
-                            <td><span class="pattern-badge">양봉-양봉-음봉</span></td>
-                            <td>$0.0701</td>
-                            <td class="green">양봉 3.44%</td>
-                            <td class="green">양봉 1.84%</td>
-                            <td class="red">음봉 -0.03%</td>
-                            <td class="red">0.03%</td>
-                            <td>₩6,562,682,071</td>
+                            <td class="green">양봉 4.41%</td>
+                            <td class="red">음봉 -0.01%</td>
+                            <td class="red">0.01%</td>
+                            <td>₩1,745,611,849</td>
                         </tr>
 
                     </tbody>
@@ -1819,7 +1010,7 @@
                 🔍 개별 종목 차트 및 뉴스 확인 필수
             </p>
             <p style="margin-top: 15px; font-size: 0.9em;">
-                생성 시간: 2025-11-09 22:11:17 | 환율: 1 USD = 1456.56 KRW
+                생성 시간: 2025-11-10 02:02:22 | 환율: 1 USD = 1456.56 KRW
             </p>
         </div>
     </div>

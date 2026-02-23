@@ -228,7 +228,7 @@
             <div class="header">
                 <h1>🤖 자동매매 결과</h1>
                 <div class="subtitle">AI 코인선물 숏포지션 자동매매 시스템</div>
-                <div class="subtitle">생성 시간: 2026-02-23 20:39:31</div>
+                <div class="subtitle">생성 시간: 2026-02-23 21:35:33</div>
             </div>
             
             <div class="nav-menu">
@@ -245,21 +245,21 @@
                 <div class="rule3-title">시장 상황에 따른 진입 제한</div>
                 <div class="rule3-conditions">
                     <div class="rule3-condition">
-                        <strong>조건A: 시장 과하락 구간 차단</strong>
-                        <p>코인종합지수(4시간봉 변동률) ≤ -1.0%<br>
-                        → 시장 하락 시 숏포지션 손절 위험 높음</p>
+                        <strong>조건A: 직전봉 음봉 반전 차단</strong>
+                        <p>BTC 4시간봉 직전봉 음봉(몸통 ≥ 3.0%) AND 최신봉 양봉<br>
+                        → 급락 후 반등 구간에서 숏포지션 역행 위험</p>
                     </div>
                     <div class="rule3-condition">
-                        <strong>조건B: 시장 급반등 구간 차단</strong>
-                        <p>코인종합지수 > +1.0% AND 양봉비율 ≥ 70%<br>
-                        → 강한 상승장에서 숏포지션 역행 위험</p>
+                        <strong>조건B: 최신봉 강한 양봉 차단</strong>
+                        <p>BTC 4시간봉 최신봉 양봉(몸통 ≥ 2.5%)<br>
+                        → 강한 상승 모멘텀 구간에서 숏포지션 진입 위험</p>
                     </div>
                 </div>
             </div>
             
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="stat-value">3</div>
+                    <div class="stat-value">4</div>
                     <div class="stat-label">총 거래 횟수</div>
                 </div>
                 <div class="stat-card">
@@ -267,27 +267,27 @@
                     <div class="stat-label">수익 거래</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">33.3%</div>
+                    <div class="stat-value">25.0%</div>
                     <div class="stat-label">승률</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value negative">-25.25%</div>
+                    <div class="stat-value negative">-42.10%</div>
                     <div class="stat-label">누적 수익률</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value negative">-8.42%</div>
+                    <div class="stat-value negative">-10.53%</div>
                     <div class="stat-label">평균 수익률</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value negative">$-12.62</div>
+                    <div class="stat-value negative">$-21.05</div>
                     <div class="stat-label">누적 PNL</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">$393.98</div>
+                    <div class="stat-value">$385.50</div>
                     <div class="stat-label">총 잔액</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value">$177.55</div>
+                    <div class="stat-value">$235.65</div>
                     <div class="stat-label">사용 가능 잔액</div>
                 </div>
             </div>
@@ -310,6 +310,9 @@
                             <th>PNL</th>
                             <th>포지션크기</th>
                             <th>레버리지</th>
+                            <th>BTC 직전봉</th>
+                            <th>BTC 최신봉</th>
+                            <th>규칙3</th>
                             <th>상태</th>
                         </tr>
                     </thead>
@@ -324,6 +327,9 @@
                     <td class="">-</td>
                     <td>$50.0</td>
                     <td>2x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-open">대기중</span></td>
                 </tr>
             
@@ -336,6 +342,9 @@
                     <td class="">-</td>
                     <td>$50.0</td>
                     <td>2x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-open">대기중</span></td>
                 </tr>
             
@@ -343,12 +352,15 @@
                     <td>2026-02-23 (월) 12:40</td>
                     <td><a href="https://www.binance.com/en/futures/OPUSDT" class="symbol-link" target="_blank">OPUSDT</a></td>
                     <td>$0.115100</td>
-                    <td>-</td>
-                    <td class="">-</td>
-                    <td class="">-</td>
+                    <td>$0.124800</td>
+                    <td class="pnl-negative">-16.85%</td>
+                    <td class="pnl-negative">$-8.43</td>
                     <td>$50.0</td>
                     <td>2x</td>
-                    <td><span class="status-badge status-open">대기중</span></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
+                    <td><span class="status-badge status-closed">완료</span></td>
                 </tr>
             
                 <tr>
@@ -360,6 +372,9 @@
                     <td class="pnl-negative">$-11.85</td>
                     <td>$50.0</td>
                     <td>2x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-closed">완료</span></td>
                 </tr>
             
@@ -372,6 +387,9 @@
                     <td class="">-</td>
                     <td>$50.0</td>
                     <td>2x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-open">대기중</span></td>
                 </tr>
             
@@ -384,6 +402,9 @@
                     <td class="pnl-negative">$-1.35</td>
                     <td>$50.0</td>
                     <td>2x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-closed">완료</span></td>
                 </tr>
             
@@ -396,6 +417,9 @@
                     <td class="pnl-positive">$+0.58</td>
                     <td>$50.0</td>
                     <td>1x</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td><span style="color:#999">-</span></td>
                     <td><span class="status-badge status-closed">완료</span></td>
                 </tr>
             
@@ -409,8 +433,8 @@
         const dates = ["2026-02-22", "2026-02-23"];
         const opens = [0, 1.16];
         const highs = [1.16, 1.16];
-        const lows = [0, -25.25];
-        const closes = [1.16, -25.25];
+        const lows = [0, -42.1];
+        const closes = [1.16, -42.1];
         
         const candlestick = {
             type: 'candlestick',

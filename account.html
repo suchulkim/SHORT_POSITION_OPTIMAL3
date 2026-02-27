@@ -36,6 +36,8 @@
                 th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
                 th { background: #f9fafb; font-weight: 600; color: #333; }
                 tr:hover { background: #f9fafb; }
+                .tp1-info { background: linear-gradient(135deg, #fff3e0, #ffe0b2); border: 2px solid #ff9800; border-radius: 12px; padding: 15px 20px; margin-bottom: 20px; }
+                .tp1-info h3 { color: #e65100; margin-bottom: 8px; }
             </style>
         </head>
         <body>
@@ -44,6 +46,13 @@
                     <h1>💰 바이낸스 계좌 잔고 현황</h1>
                     <p class="subtitle">실시간 잔고 추적 및 수익률 분석</p>
                 </div>
+
+                <div class="tp1-info">
+                    <h3>⏱ 1차 익절 자동 취소 설정</h3>
+                    <p>포지션 진입 후 <strong>30분</strong> 경과 시 1차 익절 주문을 자동으로 취소합니다.</p>
+                    <p style="color:#666;font-size:0.9rem;margin-top:4px">설정 변경: binance_account_manager.py 상단 <code>TP1_CANCEL_MINUTES</code> 변수를 수정하세요.</p>
+                </div>
+
                 <div id="errorMessage" class="error" style="display: none;"></div>
                 <div class="stats-grid">
                     <div class="stat-card"><div class="label">현재 잔고</div><div class="value" id="currentBalance">$0.00</div><div class="change" id="balanceChange">--</div></div>
@@ -3588,6 +3597,42 @@
     "balance": 384.27,
     "base_balance": 419.71,
     "profit_pct": -8.44
+  },
+  {
+    "timestamp": "2026-02-27 15:40:48",
+    "balance": 384.28,
+    "base_balance": 419.71,
+    "profit_pct": -8.44
+  },
+  {
+    "timestamp": "2026-02-27 15:50:48",
+    "balance": 383.96,
+    "base_balance": 419.71,
+    "profit_pct": -8.52
+  },
+  {
+    "timestamp": "2026-02-27 16:00:51",
+    "balance": 383.7,
+    "base_balance": 419.71,
+    "profit_pct": -8.58
+  },
+  {
+    "timestamp": "2026-02-27 16:10:49",
+    "balance": 383.77,
+    "base_balance": 419.71,
+    "profit_pct": -8.56
+  },
+  {
+    "timestamp": "2026-02-27 16:20:49",
+    "balance": 383.92,
+    "base_balance": 419.71,
+    "profit_pct": -8.53
+  },
+  {
+    "timestamp": "2026-02-27 16:30:48",
+    "balance": 384.08,
+    "base_balance": 419.71,
+    "profit_pct": -8.49
   }
 ];
                 let chartInstance = null;
